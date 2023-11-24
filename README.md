@@ -50,6 +50,9 @@ Plots and visualizations are available in the notebook to illustrate the entire 
 ![Forecast](TIME_SERIES/Forecast_confidence_interval.png)
 
 8.Future Work
+
 Further optimization of the model parameters.
+
 Exploration of additional time series forecasting methods.
+
 Integration of external factors that may influence passenger numbers.
