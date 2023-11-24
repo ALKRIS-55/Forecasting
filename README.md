@@ -12,7 +12,11 @@ To run this project, you can follow these steps:
 git clone https://github.com/ALKRIS-55/Forecasting.git
 ```
 
-Project Overview
+## Project Structure
+1. Time_Series_Forecasting.py: Python script containing the entire project code.
+2. airline.csv: Dataset containing historical data on airline passengers.
+
+## Project Overview
 1. Dataset Overview
 The dataset contains time series data with two columns: 'Month' and 'Passengers'. The 'Month' column is initially of type 'Object', and it is converted to the 'datetime' datatype for analysis.
 
