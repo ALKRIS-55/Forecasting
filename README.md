@@ -10,6 +10,7 @@ To run this project, you can follow these steps:
 
 ```bash
 git clone https://github.com/ALKRIS-55/Forecasting.git
+```
 
 Project Overview
 1. Dataset Overview
