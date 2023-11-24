@@ -23,13 +23,20 @@ The dataset contains time series data with two columns: 'Month' and 'Passengers'
 2. Exploratory Data Analysis
 Visualized time series trends to observe the upward trend and potential seasonality.
 Plotted seasonality patterns to identify peak passenger months, highlighting July as the month with the highest passenger count.
-3. Stationarity Check
+![Airline Passenger Trend](TIME_SERIES/Time_series_trend.png)
+![Seasonality] (TIME_SERIES/Pattern_in_time_series(Seasonality).png)
+
+![Forecast](TIME_SERIES/Forecast.png)
+
+
+
+4. Stationarity Check
 Performed Dickey-Fuller test to check stationarity. Identified that the original data is not stationary due to a increasing mean.
 
-4. Data Transformation
+5. Data Transformation
 Applied log transformation to stabilize the variance.
 Differenced the log-transformed series to achieve stationarity.
-5. Forecasting Model - ARIMA
+6. Forecasting Model - ARIMA
 Used Auto Correlation Function (ACF) and Partial Auto Correlation Function (PACF) to determine optimal parameters (p, d, q) for the ARIMA model.
 Created ARIMA model with selected parameters and fitted it to the differenced log-transformed data.
 Predicted future passenger counts and plotted the results.
